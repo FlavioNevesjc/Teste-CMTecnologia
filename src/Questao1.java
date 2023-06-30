@@ -2,11 +2,11 @@ import java.util.Random;
 
 public class Questao1 {
     public static void main(String[] args) {
-        Inveter();
+        Inverter();
     }
 
-    public static void Inveter() {
-        //Gerar numeros aleatorios para Matriz
+    public static void Inverter() {
+        //Gerar números aleatórios para Matriz
         Random random = new Random();
         int[][] matriz = new int[5][5];
         for(int i = 0; i< 5; i++) {
